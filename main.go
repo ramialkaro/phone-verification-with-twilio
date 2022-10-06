@@ -14,7 +14,7 @@ func main() {
 	err := godotenv.Load("development.env")
 
 	if err != nil {
-		log.Fatalf("Some error occured when load env file. Err: %s", err)
+		log.Fatalf("Some error happened when load ENV file. Err: %s", err)
 	}
 
 	// Environment variables
